@@ -1,7 +1,7 @@
 import { Cart } from '@/components/Cart'
 import NavbarLayout from '@/components/NavbarLayout'
 import React, { useContext } from 'react'
-import {CartContext} from '../../context/CartContext'
+// import {CartContext} from '../../context/CartContext'
 
 const index = () => {  
 

@@ -25,7 +25,7 @@ export function useCartContext() {
 
 export function CartProvider({ children }: CartProviderProps) {
 
-  const [cartItems, setCartItems] = useState<CartItem>([])
+  // const [cartItems, setCartItems] = useState<CartItem>([])
 
-  return <CartContext.Provider value={CartContext}>{children}</CartContext.Provider>
+  // return <CartContext.Provider value={}>{children}</CartContext.Provider>
 }

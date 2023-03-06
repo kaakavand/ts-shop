@@ -1,4 +1,3 @@
-import { CartContext } from '@/context/CartContext';
 import React, { useContext } from 'react'
 
 interface CartProps {
@@ -9,9 +8,7 @@ interface CartProps {
 
 export const Cart = ({ description, price, title }: CartProps) => {
 
-    const data = useContext(CartContext);
-    console.log(data);
-    
+
     const onClick = () => {
     }
 
