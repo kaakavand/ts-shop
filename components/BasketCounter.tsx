@@ -1,6 +1,6 @@
 import React from 'react'
 
-type BasketCounterProps = {
+interface BasketCounterProps  {
   counter : number
 }
 

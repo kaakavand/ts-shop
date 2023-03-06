@@ -5,7 +5,7 @@ import React from 'react'
 import { BasketCounter } from './BasketCounter'
 
 
-type NavbarLayoutProps = {
+interface NavbarLayoutProps  {
   children: React.ReactNode
 }
 

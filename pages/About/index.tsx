@@ -1,4 +1,4 @@
-import { Card } from '@/components/Card'
+import { Cart } from '@/components/Cart'
 import NavbarLayout from '@/components/NavbarLayout'
 import React from 'react'
 
